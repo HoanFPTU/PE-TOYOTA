@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  display: block;
+  width: 30%;
+}
+.footer {
+  background: #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+h1 {
+  font-size: 32px;
+  color: orange;
+  width: 100%;
+  text-align: center;
+}
+.saleoff {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+}
+.saleoff > .items {
+  width: calc(25% - 6px);
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  padding-bottom: 12px;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  justify-content: space-between;
+}
+.items h4 {
+  text-align: center;
+}
+.items > div {
+  background-color: orange;
+  padding: 12px;
+  border-radius: 8px;
+}
+.items del {
+  color: red;
+}
+.saleoff img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
